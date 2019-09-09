@@ -3,7 +3,7 @@
 
 
 # Září- Práce na softwaru
-# Říjen - Práce hardwaru
+# Říjen - Práce na hardwaru
 # Listopad - Dokončování softwaru/hardwaru, příprava dokumentace
 # Prosinec - Dokončování dokumentace
 # Leden - Hotovo
