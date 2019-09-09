@@ -2,8 +2,8 @@
 
 Arduino 
 
-Září- Objednani komponentů
+Září- Objednání komponentů
 Říjen - Práce na softwaru/hardwaru
-Listopad - Dokončování
-Prosinec - Dokumentace
-Leden - Doufám, že to projde
+Listopad - Dokončování softwaru/hardwaru, příprava dokumentace
+Prosinec - Dokončování dokumentace
+Leden - Hotovo
