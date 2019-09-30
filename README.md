@@ -22,3 +22,8 @@
  HM10 Bluetooth Module - http://amzn.to/2kW8BYs
  2x Motor and Wheel - http://amzn.to/2mQGYxl
  Magnets + Bateries
+
+
+ 1. Nakrestlit schéma v KiCadu
+ 2. Vymyslení spoje autíčka
+ 3. Zprovoznění motorů 
