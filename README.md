@@ -14,3 +14,11 @@
 
 
  Ukázkové video:https://www.youtube.com/watch?v=jkCP3BoHpLY
+
+
+ Hardware k projektu:
+ Arduino - http://amzn.to/2xbXNK4
+ Motor Shield - http://amzn.to/2gQUkL0
+ HM10 Bluetooth Module - http://amzn.to/2kW8BYs
+ 2x Motor and Wheel - http://amzn.to/2mQGYxl
+ Magnets + Bateries
