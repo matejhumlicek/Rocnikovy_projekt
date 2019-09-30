@@ -24,6 +24,9 @@
  Magnets + Bateries
 
 
- 1. Nakrestlit schéma v KiCadu
- 2. Vymyslení spoje autíčka
+ 
+ 1. Vymyslení spoje autíčka
+ 2. Nakrestlit schéma v KiCadu
+ 4. Pájení
  3. Zprovoznění motorů 
+ 
