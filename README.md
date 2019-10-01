@@ -25,8 +25,13 @@
 
 
  
- 1. Vymyslení spoje autíčka
- 2. Nakrestlit schéma v KiCadu
- 4. Pájení
- 3. Zprovoznění motorů 
  
+ 
+ -[X] Vybrání projektu
+ -[X] Objednání součástek
+ -[X] Spájení motorků
+ -[] Vymyslení spoje autíčka 
+ -[] Nakreslení schématu
+ -[] Zapojení
+ -[] Kod
+ -[] Dokumentace
