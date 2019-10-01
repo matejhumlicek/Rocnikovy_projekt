@@ -30,8 +30,8 @@
  - [X] Vybrání projektu
  - [X] Objednání součástek
  - [X] Spájení motorků
- - [] Vymyslení spoje autíčka 
- - [] Nakreslení schématu
- - [] Zapojení
- - [] Kod
- - [] Dokumentace
+ - [ ] Vymyslení spoje autíčka 
+ - [ ] Nakreslení schématu
+ - [ ] Zapojení
+ - [ ] Kod
+ - [ ] Dokumentace
