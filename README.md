@@ -29,9 +29,8 @@
  
  - [X] Vybrání projektu
  - [X] Objednání součástek
- - [X] Spájení motorků
- - [ ] Vymyslení spoje autíčka 
+ - [X] Pájení
  - [ ] Nakreslení schématu
- - [ ] Zapojení
+ - [X] Zapojení
  - [ ] Kod
  - [ ] Dokumentace
