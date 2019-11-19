@@ -30,7 +30,7 @@
  - [X] Vybrání projektu
  - [X] Objednání součástek
  - [X] Pájení
- - [ ] Nakreslení schématu
  - [X] Zapojení
+ - [ ] Nakreslení schématu
  - [ ] Kod
  - [ ] Dokumentace
