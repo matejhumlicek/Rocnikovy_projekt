@@ -34,3 +34,14 @@
  - [ ] Nakreslení schématu
  - [ ] Kod
  - [ ] Dokumentace
+
+
+
+
+
+
+
+
+
+Problémy - 16.11 - Nedaří se mi rozjet Motory při uploadu kodu do Arduina
+                   Možné chyby - Závada na hardwaru, špatny kod 
