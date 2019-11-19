@@ -30,9 +30,10 @@
  - [X] Vybrání projektu
  - [X] Objednání součástek
  - [X] Pájení
- - [X] Zapojení
+ - [X] Zapojení 
  - [ ] Nakreslení schématu
  - [ ] Kod
+ - [ ] Zajištění a následné uložení arduina do "koule"
  - [ ] Dokumentace
 
 
@@ -45,3 +46,4 @@
 
 Problémy - 16.11 - Nedaří se mi rozjet Motory při uploadu kodu do Arduina
                    Možné chyby - Závada na hardwaru, špatny kod 
+                   ŘEŠENÍ - zkontrolování hardwaru postupně, následná kontrola kodu
