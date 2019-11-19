@@ -3,8 +3,8 @@
 #include <Arduino.h>
 #include <AFMotor.h>
 //creates two objects to control two terminals on the motor shield 
-AF_DCMotor motor1(2); 
-AF_DCMotor motor2(1); 
+AF_DCMotor motor1(2,MOTOR12_1KHZ); 
+AF_DCMotor motor2(1,MOTOR12_1KHZ); 
 
 char command; 
 
