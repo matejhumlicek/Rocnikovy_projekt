@@ -44,12 +44,25 @@
 
 
 
-Problémy - 16.11 - Nedaří se mi rozjet Motory při uploadu kodu do Arduina
-                 - Možné chyby - Závada na hardwaru, špatny kod 
+Problémy:
+
+           16.11 - Nedaří se mi rozjet Motory při uploadu kodu do Arduina
+           16.11 - Možné chyby - Závada na hardwaru, špatny kod                  
            16.11 - VYŘEŠENO chyba softwaru                 
            19.11 - Problém s BT modulem HM-10, nekomunikuje s Androidem ani Iphonem, možná závada na modulu
            22.11 - PROBLÉM PŘETRVÁVÁ ...   
            26.11 - ŘEŠENÍ = pořízení modulu HC-05 s vyzkoušenou jistotou fungování
                  
+                 
+Práce: 
+        
+          21.10 - Objednání/Převzetí součástek
+          22.10 - Postupné sestavování projektu
+          26.10 - Psaní kodu
+          28.10 - Ladění kodu 
+          29.10 - Vyzkoušení prvního kodu
+          02.11 - Ladění vyzkoušeneho kodu
+          04.11 - Vytvoření jednoduché mobilní aplikace na kontrolu autíčka v MIT App Inventoru
+        
           
            
