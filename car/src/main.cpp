@@ -1,35 +1,35 @@
 
 #include <Arduino.h>
 #include <AFMotor.h>
-AF_DCMotor motorR(1);
-AF_DCMotor motorL(2);
+AF_DCMotor motorR(2);
+AF_DCMotor motorL(1);
 char data = 0;
 void setup()
 {
     Serial.begin(9600);                               
     Serial.println("Motor test !");
-    motorR.setSpeed(200);
-    motorL.setSpeed(200);
+    motorR.setSpeed(245);
+    motorL.setSpeed(245);
 }
 void forward()
 {
   Serial.println("DOPREDU");
   
-  motorR.run(FORWARD);
+  motorR.run(BACKWARD);
   motorL.run(FORWARD);
 }
 void backward()
 {
   Serial.println("ZPATKY");
   
-  motorR.run(BACKWARD);
+  motorR.run(FORWARD);
   motorL.run(BACKWARD);
 }
 void left()
 {
   Serial.println("VLEVO");
   
-  motorR.run(FORWARD);
+  motorR.run(BACKWARD);
   motorL.run(RELEASE);
 }
 void right()
@@ -50,14 +50,14 @@ void spinRight()
 {
   Serial.println("TOCENI DOPRAVA");
   delay(500);
-  motorR.run(BACKWARD);
+  motorR.run(FORWARD);
   motorL.run(FORWARD);
 }
 void spinLeft()
 {
   Serial.println("TOCENI DOLEVA ");
   delay(500);
-  motorR.run(FORWARD);
+  motorR.run(BACKWARD);
   motorL.run(BACKWARD);
 }
 void loop()
@@ -75,11 +75,11 @@ void loop()
       {
         backward();
       }
-      else if(data == 'L')
+      else if(data == 'R')
       {
         right();
       }
-      else if(data == 'R')
+      else if(data == 'L')
       {
         left();
       }
@@ -98,17 +98,11 @@ void loop()
 #include <SoftwareSerial.h>
 AF_DCMotor motor1(2,MOTOR12_1KHZ); 
 AF_DCMotor motor2(1,MOTOR12_1KHZ); 
-
 char t; 
-
 void setup() 
 {       
   Serial.begin(9600); 
-
 }
-
-
-
 void loop() {
 if(Serial.available()){
   t = Serial.read();
@@ -142,7 +136,6 @@ else if(t == 'R'){      //turn left (right side motors rotate in forward directi
   motor2.setSpeed(220); 
   motor2.run(FORWARD); 
 }
-
  
 else if(t == 'S'){      //STOP (all motors stop)
   motor1.setSpeed(0);
@@ -150,10 +143,7 @@ else if(t == 'S'){      //STOP (all motors stop)
   motor2.setSpeed(0);
   motor2.run(RELEASE); 
 }
-
 }
-
-
 void forward()
 {
   motor1.setSpeed(220); 
@@ -161,7 +151,6 @@ void forward()
   motor2.setSpeed(220);
   motor2.run(FORWARD); 
 }
-
 void back()
 {
   motor1.setSpeed(220); 
@@ -169,7 +158,6 @@ void back()
   motor2.setSpeed(220); 
   motor2.run(BACKWARD); 
 }
-
 void left()
 {
   motor1.setSpeed(220); 
@@ -177,7 +165,6 @@ void left()
   motor2.setSpeed(100);
   motor2.run(FORWARD); 
 }
-
 void right()
 {
   motor1.setSpeed(100);
@@ -185,7 +172,6 @@ void right()
   motor2.setSpeed(220); 
   motor2.run(FORWARD); 
 }
-
 void Stop()
 {
   motor1.setSpeed(0);
@@ -193,7 +179,6 @@ void Stop()
   motor2.setSpeed(0);
   motor2.run(RELEASE); 
 }
-
 void loop(){
   if(Serial.available() > 0){ 
     command = Serial.read(); 
