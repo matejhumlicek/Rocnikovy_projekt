@@ -32,8 +32,8 @@
  - [X] Pájení
  - [X] Zapojení 
  - [ ] Nakreslení schématu
- - [ ] Kod
- - [ ] Zajištění a následné uložení arduina do "koule"
+ - [X] Kod
+ - [50%] Zajištění a následné uložení arduina do "koule"
  - [ ] Dokumentace
 
 
@@ -45,5 +45,12 @@
 
 
 Problémy - 16.11 - Nedaří se mi rozjet Motory při uploadu kodu do Arduina
-                   Možné chyby - Závada na hardwaru, špatny kod 
-                   ŘEŠENÍ - zkontrolování hardwaru postupně, následná kontrola kodu
+                 - Možné chyby - Závada na hardwaru, špatny kod 
+           16.11 - VYŘEŠENO chyba softwaru      
+           
+           19.11 - Problém s BT modulem HM-10, nekomunikuje s Androidem ani Iphonem, možná závada na modulu
+           22.11 - PROBLÉM PŘETRVÁVÁ ...   
+           26.11 - ŘEŠENÍ = pořízení modulu HC-05 s vyzkoušenou jistotou fungování
+                 
+          
+           
