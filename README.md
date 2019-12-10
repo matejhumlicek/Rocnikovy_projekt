@@ -1,4 +1,4 @@
-# Remote controlled BB-8 Droid
+# Remote controlled BB-8 Droid (Star Wars)
 
 - Ročníkový projekt
   
